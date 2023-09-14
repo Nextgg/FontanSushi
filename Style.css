@@ -1,0 +1,39 @@
+.News{
+    background-color: blanchedalmond;
+}
+.Navigation{
+    
+    overflow: auto;
+    list-style: none;
+    white-space: nowrap;
+    display: inline;
+    
+}
+.Navigation a
+{
+    padding-left: 40px;
+    font-size: 50px;
+
+}
+.NavigationList
+{
+    margin-left: 400px;
+}
+#Logo
+{
+    width: 100px;
+    height: 100px;
+    margin-left: 20px;
+}
+#Logotext
+{
+    margin-left: 500px; 
+}
+.table1
+{
+    background-color: bisque;
+    font-size: 20px;
+}
+a, u {
+    text-decoration: none;
+  }

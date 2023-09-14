@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8" content="Фонтан суши">
+    <title>Фонтан суши</title>
+    <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+    <div>
+        <h1  style="display:inline" id="Logotext">Фонтан</h1>
+        <img id="Logo" src="logo.jpg">
+        <h1 style="display:inline" >суши</h1>
+    </div>
+    <hr>
+    <nav class="Navigation"> <!--Меню-->
+
+            <div class="NavigationList">
+                <a href="#Sets">Сеты</a>
+                <a>Пицца</a>
+                <a href="#SushiHistory">Больше об суши</a>
+            </div>
+        
+    </nav>
+    <hr>
+    <div class="News"> <!--Новости-->
+        <h1>Новости</h1>
+        <div>Спец-предложение -10% на все сеты с понедельника по четверг<hr></div>
+        <div>При заказе от 999 рублей ролл в подарок<hr></div>
+        <div>Скорее попробуйте новинку пицца-ролл!<hr></div>
+    </div>
+    <video src="https://v4.cdnpk.net/videvo_files/video/free/video0478/large_watermarked/_import_626263ce813e27.59039440_FPpreview.mp4" width="1480" height="980" autoplay controls></video>
+    <details>Только в российском ресторане возможно сочетание шашлыка, суши и пиццы не только в меню, но в одном заказе</details>
+    <code>
+        const Suchi = "Asia food";
+        const Delivery = " with Love";
+        console.log(Suchi + Delivery);    
+    </code>
+    <div>
+        <label for="SuchiOPROS">Ваши любимые суши:</label>
+        <input list="Suhilist" id="SuchiOPROS">
+        <datalist id="Suhilist">
+            <option value="Филадельфия"></option>
+            <option value="Бинго"></option>
+            <option value="Масаго"></option>
+        </datalist>
+    </div>
+    <div>
+        <label for="processBar">Процесс голода</label>
+        <progress id="processBar" max="100" value="99">99%</progress>
+    </div>
+    <button>Заказать</button>
+    <div style="margin-top: 500px" id="SushiHistory">
+        <h1>Больше об суши</h1>
+        <hr>
+        История суши началась с рисовых полей, где рыбу ферментировали с уксусом, солью и рисом, после чего рис выбрасывали.
+        Самая ранняя форма блюда, сегодня называемая нарезуси, была создана в Японии примерно в период Яей (ранний неолит–ранний железный век).
+        В период Муромати (1336-1573) люди начали есть рис так же, как и рыбу. В период Эдо (1603-1867) начали использовать уксус, а не ферментированный рис.
+        <br><br><br>
+    </div>
+    <dialog open>Хо-хо</dialog>
+    <div id="Sets"> <!-- Таблица -->
+        <table border="1" class="table1">
+            <tr>
+                <td>Название сета</td>
+                <td>Цена</td>
+                <td>Вес</td>
+                <td>Описание</td>
+            </tr>
+
+            <tr>
+                <td>Сливочное комбО</td>
+                <td>1400 руб.</td>
+                <td>1.4 кг.</td>
+                <td>В набор входит: сливочный ролл со снежным крабом, сливочный ролл с коктельной криветкой, сливочный ролл с курицей и сливочный ролл с лососем</td>
+            </tr>
+
+            <tr>
+                <td>Жара</td>
+                <td>800 руб.</td>
+                <td>1 кг.</td>
+                <td>В набор входит: Филадельфия, бинго и масаго</td>
+            </tr>
+
+            <tr>
+                <td>Для друзей</td>
+                <td>2000 руб.</td>
+                <td>2.4 кг</td>
+                <td>В набор входит: Филадельфия, сливочный со снежным крабом, фудзияма, киото запеченый</td>
+            </tr>
+
+            <tr>
+                <td>Сет Банзай</td>
+                <td>1630 руб.</td>
+                <td>1.45 кг.</td>
+                <td>В набор входит: Сливочный с коктельной криветкой, Филадельфия, Саппоро, Сырный снежный краб, Динамит жаренный лосось</td>
+            </tr>
+
+            <tr>
+                <td>Сет Спайси</td>
+                <td>1190 руб.</td>
+                <td>0.950 кг.</td>
+                <td>В набор входит: Фудзи с лососем, Бинго и Сакура запеченый</td>
+            </tr>
+
+
+
+
+        </table>
+    </div>
+
+    <footer><!-- Подвал -->
+        <hr>
+        Контакты     Форум       Тех. поддержка
+    </footer>
+
+
+
+</body>
+</html>
