@@ -4,38 +4,42 @@ a, u {
 }
 .CenterLogo
 {
-    width: 1450px;
+    top: 0;
+    left: 0;
+    width: 100%;
     height: 150px;
-
+    background-image: url("backgroundforlogo.jpg");
 }
-#Logo
+.Logo
 {
-    width: 130px;
-    height: 130px;
-    display: block;
-    margin: 0 auto;
 
+    width: 150px;
+    height: 150px;
+    margin-left: 50%;
+    margin-right: 50%;
 }
 .Logotext
 {
-    display:inline
+
 }
 .Navigation{
-    overflow: auto;
-    list-style: none;
-    white-space: nowrap;
+
+    width: 100%;
+    height: 150px;
+    border-top: 500px;
     display: inline;
+}
+.NavigationList
+{
+    display: block;
+    margin: 0 auto;
 }
 .Navigation a
 {
     padding-left: 40px;
     font-size: 50px;
+}
 
-}
-.NavigationList
-{
-    margin-left: 400px;
-}
 
 .table1
 {
