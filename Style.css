@@ -1,13 +1,30 @@
-.News{
-    background-color: blanchedalmond;
+a, u {
+    text-decoration: none;
+    color: black;
+}
+.CenterLogo
+{
+    width: 1450px;
+    height: 150px;
+
+}
+#Logo
+{
+    width: 130px;
+    height: 130px;
+    display: block;
+    margin: 0 auto;
+
+}
+.Logotext
+{
+    display:inline
 }
 .Navigation{
-    
     overflow: auto;
     list-style: none;
     white-space: nowrap;
     display: inline;
-    
 }
 .Navigation a
 {
@@ -19,21 +36,19 @@
 {
     margin-left: 400px;
 }
-#Logo
-{
-    width: 100px;
-    height: 100px;
-    margin-left: 20px;
-}
-#Logotext
-{
-    margin-left: 500px; 
-}
+
 .table1
 {
     background-color: bisque;
     font-size: 20px;
 }
-a, u {
-    text-decoration: none;
-  }
+footer
+{
+    margin-top: 10px;
+}
+footer a
+{
+    display: inline;
+    margin: 0 auto;
+    padding-left: 330px;
+}

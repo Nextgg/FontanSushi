@@ -2,14 +2,15 @@
 <html lang="ru">
 <head>
     <meta charset="UTF-8" content="Фонтан суши">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Фонтан суши</title>
-    <link rel="stylesheet" href="Style.css">
+    <link rel="stylesheet" media="screen and (min-width: 601px)" href="Style.css" />
+    <link rel="stylesheet" media="screen and (max-width: 600px)" href="StyleForMobile.css" />
 </head>
 <body>
-    <div>
-        <h1  style="display:inline" id="Logotext">Фонтан</h1>
+    <div class="CenterLogo">
         <img id="Logo" src="logo.jpg">
-        <h1 style="display:inline" >суши</h1>
+
     </div>
     <hr>
     <nav class="Navigation"> <!--Меню-->
@@ -21,6 +22,7 @@
             </div>
         
     </nav>
+
     <hr>
     <div class="News"> <!--Новости-->
         <h1>Новости</h1>
@@ -28,7 +30,7 @@
         <div>При заказе от 999 рублей ролл в подарок<hr></div>
         <div>Скорее попробуйте новинку пицца-ролл!<hr></div>
     </div>
-    <video src="https://v4.cdnpk.net/videvo_files/video/free/video0478/large_watermarked/_import_626263ce813e27.59039440_FPpreview.mp4" width="1480" height="980" autoplay controls></video>
+    <video id="videoAboutSushi" src="https://v4.cdnpk.net/videvo_files/video/free/video0478/large_watermarked/_import_626263ce813e27.59039440_FPpreview.mp4" width="1480" height="980" autoplay controls></video>
     <details>Только в российском ресторане возможно сочетание шашлыка, суши и пиццы не только в меню, но в одном заказе</details>
     <code>
         const Suchi = "Asia food";
@@ -49,7 +51,7 @@
         <progress id="processBar" max="100" value="99">99%</progress>
     </div>
     <button>Заказать</button>
-    <div style="margin-top: 500px" id="SushiHistory">
+    <div id="SushiHistory">
         <h1>Больше об суши</h1>
         <hr>
         История суши началась с рисовых полей, где рыбу ферментировали с уксусом, солью и рисом, после чего рис выбрасывали.
@@ -109,11 +111,10 @@
     </div>
 
     <footer><!-- Подвал -->
-        <hr>
-        Контакты     Форум       Тех. поддержка
+        <a>Контакты</a>
+        <a>Форум</a>
+        <a>Тех.поддержка</a>
     </footer>
-
-
 
 </body>
 </html>
