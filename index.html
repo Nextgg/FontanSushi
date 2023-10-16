@@ -4,27 +4,27 @@
     <meta charset="UTF-8" content="Фонтан суши">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Фонтан суши</title>
-    <link rel="stylesheet" media="screen and (min-width: 601px)" href="Style.css" />
-    <link rel="stylesheet" media="screen and (max-width: 600px)" href="StyleForMobile.css" />
+    <link rel="stylesheet" media="screen and (min-width: 601px)" href="Styles/Style.css" />
+    <link rel="stylesheet" media="screen and (max-width: 600px)" href="Styles/StyleForMobile.css" />
 </head>
 <body>
     <div class="CenterLogo">
-        <img class="Logo" src="logo.png">
-        <a class="Logo" href="tel:+74951234567">+7 (495) 123-45-67</a></div>
-
+        <img class="Logo" src="Image/logo.png">
     </div>
-    <hr>
     <nav class="Navigation"> <!--Меню-->
-
-            <div class="NavigationList">
                 <a href="#Sets">Сеты</a>
+                <a>Роллы</a>
+                <a>Вок</a>
                 <a>Пицца</a>
-                <a href="#SushiHistory">Больше об суши</a>
-            </div>
-        
+                <a href="#SushiHistory">Cуши</a>
     </nav>
+    <div class="listdiv">
+        <input id="inputlist">
+        <button id="create">Добавить</button>
+        <ul id="list">
 
-    <hr>
+        </ul>
+    </div>
     <div class="News"> <!--Новости-->
         <h1>Новости</h1>
         <div>Спец-предложение -10% на все сеты с понедельника по четверг<hr></div>
@@ -60,7 +60,6 @@
         В период Муромати (1336-1573) люди начали есть рис так же, как и рыбу. В период Эдо (1603-1867) начали использовать уксус, а не ферментированный рис.
         <br><br><br>
     </div>
-    <dialog open>Хо-хо</dialog>
     <div id="Sets"> <!-- Таблица -->
         <table border="1" class="table1">
             <tr>
@@ -106,8 +105,6 @@
             </tr>
 
 
-
-
         </table>
     </div>
 
@@ -116,6 +113,6 @@
         <a>Форум</a>
         <a>Тех.поддержка</a>
     </footer>
-
+    <script src="Scripts/Script.js"></script>
 </body>
 </html>
